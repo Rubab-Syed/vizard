@@ -14,12 +14,6 @@ from utils import ask_gpt, get_plot_code, get_plot_questions, clean_json
 
 tqdm.pandas(desc="Progress Bar")
 
-
-#openai_api_key = getpass()
-
-#os.environ['OPENAI_API_KEY']=openai_api_key
-#client = OpenAI()
-
 os.environ['OPENAI_API_KEY']='<your-openai-key>'
 client = OpenAI()
 GPT_VISION = 'gpt-4-vision-preview'
